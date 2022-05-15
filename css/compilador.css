@@ -10,6 +10,34 @@ ul {
 section {
   display: inline-block; }
 
+.color-primary {
+  color: #004225; }
+
+.color-secondary {
+  color: #abb1b8; }
+
+.color-third {
+  color: white; }
+
+.color-fourth {
+  color: #00422592; }
+
+.bg-color-primary {
+  background-color: #004225; }
+
+.bg-color-secondary {
+  background-color: #abb1b8; }
+
+.bg-color-third {
+  background-color: white; }
+
+.bg-color-fourth {
+  background-color: #00422592; }
+
+.boton, .form-log-in button {
+  margin: 5px;
+  background-color: #004225; }
+
 body {
   margin: 0;
   font-family: Raleway, sans-serif;
@@ -28,7 +56,9 @@ header {
   color: white; }
   header img {
     height: 30px;
+    width: auto;
     padding: 2px;
+    margin: 0px;
     transition: all 0.3s ease-in-out; }
     header img:hover {
       border-radius: 10px;
@@ -38,9 +68,10 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  height: 30px; }
+  height: 30px;
+  width: auto;
+  padding: 0px;
+  margin: 0px; }
 
 .header-right-a {
   padding: 10px;
@@ -148,7 +179,6 @@ h4 {
   grid-area: h4; }
 
 .h3-frase {
-  color: white;
   display: flex;
   align-items: center;
   padding: 0 0 0 10px;
@@ -173,7 +203,6 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #004225;
   color: white;
   height: 50px; }
 
@@ -218,7 +247,8 @@ p {
 
 .map {
   height: 250px;
-  width: 300px; }
+  width: 300px;
+  border-radius: 20px; }
 
 .main-contacto {
   display: flex;
@@ -254,10 +284,6 @@ p {
 
 .form-log-in input {
   margin: 5px; }
-
-.form-log-in button {
-  margin: 5px;
-  background-color: #004225; }
 
 .div-contact {
   margin: 10px 10px;

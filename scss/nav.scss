@@ -10,8 +10,9 @@ header{
     color: $color-third; 
 
     img{
-        height: 30px;
-        padding: 2px;
+        @include size(30px,auto,2px,0px);
+        // height: 30px;
+        // padding: 2px;
         transition: all 0.3s ease-in-out;
         &:hover{
             border-radius: 10px;
@@ -24,9 +25,10 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0;
-    padding:0;
-    height: 30px;
+    @include size(30px,auto,0px,0px);
+    // margin: 0;
+    // padding:0;
+    // height: 30px;
 }
 
 .header-right-a{
